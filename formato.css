@@ -1,0 +1,175 @@
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+img.fondo{
+    opacity: 0,5;
+}
+img.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.fondo{
+   background-image: url('descarga.jpg'); 
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+}
+.container img{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+right img{
+    float: right;
+    margin-left: 10px;
+    border: none;
+    display: block;
+}
+
+.fondo:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #e3b154;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.5;
+}
+td{
+    padding: 10px;
+}
+td, th{
+    position: relative;
+    z-index: 1;
+}
+
+th, tr, td, table{
+    text-align: center  ;
+    border: solid red 3px;
+    border-collapse: collapse;
+}
+ol.capa{
+    z-index: 1;
+    position: relative;
+    text-align: left;
+}
+p{
+    z-index: 1;
+    position: relative;
+}
+blockquote{
+    z-index: 1;
+    position: relative;
+}
+li{
+    z-index: 1;
+    position: relative;
+}
+h1.title{
+    font-size: 45px;
+    color: #591f0c;
+}
+
+h1{
+    z-index: 1;
+    position: relative;
+}
+p{
+    font-family: "Arial";
+}
+hr{
+    height: 10px;
+    width: 80%;
+    border-color: blue;
+}
+img.war{
+    opacity: 0,9;
+    width: 800px;
+    height: 400px;
+}
+a.bienvenidos{
+    font-size: 50px;
+    border: none;
+    font-family: Arial;
+    text-align: center;
+}
+div.indice{
+    font-size: 60px;
+    font-family: Arial;
+    color: red;
+}
+li{
+    font-size: 40px;
+    font-family: Arial;
+}
+ol{
+    color: red;
+}
+p.list{
+    font-size: 40px;
+    font-family: Arial;
+    color: black;
+}
+p.definition{
+    color: black;
+    font-family: Arial;
+    font-size: 23px;
+}
+p.historia{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+}
+p.opinión{
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+}
+p.aditional{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+}
+p.conclusiones{
+    color: black;
+    font-family: Arial;
+    font-size: 28px;
+}
+video{
+    z-index: 1;
+    position: relative;
+}
+iframe{
+    z-index: 1;
+    position: relative;
+}
+a{
+    z-index: 1;
+    position: relative;
+}
+.back{
+    align-content: right;
+    text-align: right;
+    float: right;
+}
+h1{
+    font-size: 50px;
+}
+p.lista{
+    font-family: Arial;
+    color: black;
+    font-size: 26px;
+}
